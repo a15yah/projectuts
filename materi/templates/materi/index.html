@@ -1,0 +1,332 @@
+{% extends 'base.html' %} {% block content %}
+    <div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">
+        <center><b>KATA PENGANTAR</b></center>
+        </h6>
+    </div>
+    <div class="card-body">
+        <justify>
+        <p>
+            Puji syukur saya panjatkan kehadirat tuhan Yang Maha Esa yang telah melimpahkan karunia-Nya, sehingga saya bisa menyusun bahan ajar Himpunan untuk tingkat SMP/MTs kelas VII dengan baik dan lancar. Ucapan terima kasih saya haturkan
+            kepada semua pihak yang telah membantu dalam penyusunan buku ini.
+        </p>
+        <p>
+            Buku ini disusun agar pelajar indonesia memiliki kemampuan hidup sebagai pribadi dan warga negara yang beriman, produktif, kreatif, inovatif, dan efektif serta mampu berkontribusi pada kehidupan bermasyarakat, berbangsa, dan
+            peradaban dunia. Tujuan buku ini disusun ialah sebagai penunjang pelaksanaan kegiatan belajar mengajar pada pembelajaran matematika. Buku ini membuat ringkasan materi pokok yang diuraikan secara mendalam. Pada setiap sub bab termuat
+            tugas-tugas, soal latihan serta evaluasi untuk menguji kemampuan hasil belajar siswa.
+        </p>
+        <p>
+            Demi peningkatan kualitas buku pada edisi berikutnya, saya mengharapkan saran dan kritik yang membangun dari berbagai pihak. Ucapan terima kasih tidak lupa saya ucapkan kepada pembaca maupun pendidik yang telah menggunakan buku ini.
+        </p>
+        <p>Serang, Maret 2022</p>
+        <p>Penulis</p>
+        </justify>
+    </div>
+    </div>
+
+<!-- BAB I -->
+    <div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary"><center>MENGENAL HIMPUNAN</center></h4>
+    </div>
+    <div class="card-body">
+        <h5>1. Pengertian Himpunan</h5>
+        <ol>
+        <p align="justify">
+            Pada pendahuluan, sebelumnya sudah sedikit dijelaskan tentang konsep dari suatu himpunan. Mari kita ulas lebih jauh lagi. Pada dasarnya, suatu himpunan berada di sekitar kita. Perhatikan contoh kumpulan-kumpulan di bawah ini :
+            Kumpulan warna pelangi, Kumpulan hewan berkaki dua, Kumpulan buah - buahan
+        </p>
+        </ol>
+        <center>
+        <img src="https://i.postimg.cc/5Nmyt04y/Gambar1.jpg" width="300px" height="250px" />
+        <img src="https://i.postimg.cc/SxNsYhRr/gambar-hewan.jpg" width="300px" height="250px" />
+        <img src="https://i.postimg.cc/k53phnSN/buah-buahan.png" width="300px" height="250px" />
+        </center>
+        <ol>
+        <p align="justify">
+            Kumpulan buah-buahan diantaranya yaitu mangga, apel, jeruk, dan pisang. Kumpulan buah-buahan tersebut merupakan suatu himpunan, karena kumpulan tersebut jelas merupakan suatu buah. Kumpulan warna pelangi adalah merah, jingga,
+            kuning, hijau, biru, nila, dan ungu. Kumpulan warna pelangi merupakan suatu himpunan, karena anggotanya dengan jelas dapat ditentukan. Sekarang, coba perhatikan contoh kumpulan berikut ini : Kumpulan lukisan indah, Kumpulan lelaki
+            tampan.
+        </p>
+        </ol>
+        <ol>
+        <p align="justify">
+            Kumpulan lukisan indah tidak dapat disebut sebagai himpunan, karena tidak semua orang bisa satu pendapat. Bisa jadi sebagian orang mengatakan lukisan A indah, tetapi mungkin saja bagi sebagian orang yang lain lukisan A tidak indah.
+            Dengan kata lain, kumpulan dari lukisan indah tidak dapat didefinisikan dengan jelas. Begitu juga dengan kumpulan lelaki tampan. Kumpulan lelaki tampan tidak bisa dikatakan sebagai suatu himpunan karena menurut seseorang tampan,
+            belum tentu menurut orang lain tampan. Dengan kata lain, kumpulan lelaki tampan tidak dapat didefinisikan dengan jelas. Jadi dapat disimpulkan bahwa himpunan adalah kumpulan suatu benda atau objek yang dapat didefinisikan dengan
+            jelas, sehingga dapat diketahui mana objek yang merupakan suatu himpunan dan mana objek yang bukan merupakan suatu himpunan. (Wagiyo, Surati, & Supradiarini, 2008)
+        </p>
+        </ol>
+
+        <h5>2. Notasi dan Anggota Himpunan</h5>
+        <ol>
+        <p align="justify">Umumnya huruf kapital (A, B, C, D, dst.) digunakan untuk menyatakan nama himpunan dan kurung kurawal digunakan untuk membatasi penulisan anggota dari suatu himpunan {..., ..., ..., ...}.</p>
+        </ol>
+        <ol>
+        <p align="justify">
+            Setiap benda atau objek yang berada dalam suatu himpunan disebut anggota atau elemen dari himpunan itu dan dinotasikan dengan ∈. Adapun benda atau objek yang tidak termasuk dalam suatu himpunan dikatakan bukan anggota himpunan dan
+            dinotasikan dengan ∉. (Wintarti, et al., 2008)
+        </p>
+        </ol>
+        <ol>
+        <p align="justify">
+            Berdasarkan contoh di atas, A adalah himpunan bilangan cacah yang kurang dari 5, sehingga A = {0, 1, 2, 3, 4}. Bilangan 0, 1, 2, 3, dan 4 adalah anggota atau elemen dari himpunan A, jadi dapat ditulis dengan 0 ∈ A, 1 ∈ A, 2 ∈ A, 3 ∈
+            A, dan 4 ∈ A. Karena 5, 6, 7, dan 8 bukan anggota A, maka ditulis dengan 5 ∉ A, 6 ∉ A, 7 ∉ A, dan 8 ∉ A.
+        </p>
+        </ol>
+        <ol>
+        <p align="justify">
+            Kemudian banyaknya aanggota dari suatu himpunan dapat dinyatakan dengan n. Jika A = {0, 1, 2, 3, 4} maka n(A) = banyaknya anggota himpunan A = 5. Jadi dapat disimpulkan Banyaknya anggota himpunan A dinyatakan dengan n(A).
+        </p>
+        </ol>
+
+        <h5>3. Menyatakan Himpunan</h5>
+        <ol>
+        <p align="justify">Untuk menyatakan keanggotaan suatu himpunan, ada tiga cara yang dapat kita lakukan, diantaranya :</p>
+        </ol>
+        <ol type=".">
+        <li>Dengan menggunakan kata-kata.</li>
+        <li>Dengan menggunakan notasi pembentuk himpunan.</li>
+        <li>Dengan mendaftarkan anggota-anggota himpunan tersebut.</li>
+        </ol>
+        <ol>
+        <p align="justify">Untuk lebih memahaminya, mari kita ulas satu per satu !</p>
+        </ol>
+        <ol type="a">
+        <li>Menyatakan anggota himpunan dengan menggunakan kata-kata</li>
+        <p align="justify">
+            Caranya yaitu dengan menyebutkan semua syarat/sifat keanggotaannya. Misalnya , bilangan 2, 4, 6, dan 8 merupakan anggota himpunan bilangan genap yang kurang dari 10. Apabila dinyatakan dalam bentuk kata-kata, akan menjadi sebagai
+            berikut :
+        </p>
+        <center>
+            <ol>
+            <p><img src="https://i.postimg.cc/JhTPzncy/Jepretan-Layar-2022-05-29-pukul-19-15-53-removebg-preview.png" width="600px" height="150px" /></p>
+            </ol>
+        </center>
+
+        <p><li>Menyatakan anggota himpunan dengan notasi pembentuk himpunan</li></p>
+        <p align="justify">
+            Caranya masih sama seperti menyatakan himpunan dengan kata-kata, pada cara ini semua syarat/sifat keanggotaannya disebutkan. Namun, yang membedakannya pada cara kali ini yaitu anggota himpunan dinyatakan dengan suatu peubah. Peubah
+            yang biasa digunakan adalah x atau y.
+        </p>
+        <p align="justify">Contoh :</p>
+        <p>A = {bilangan genap yang kurang dari 10}</p>
+        <p>Dengan notasi pembentuk himpunan dapat ditulis dengan :</p>
+        <p>A = {x < 10, x ∈ bilangan genap} dibacanya "A adalah himpunan x, dengan x kurang dari 10 dan x bilangan genap".</p>
+        <p align="justify">
+            Berdasarkan contoh di atas, A adalah himpunan bilangan cacah yang kurang dari 5, sehingga A = {0, 1, 2, 3, 4}. Bilangan 0, 1, 2, 3, dan 4 adalah anggota atau elemen dari himpunan A, jadi dapat ditulis dengan 0 ∈ A, 1 ∈ A, 2 ∈ A, 3 ∈
+            A, dan 4 ∈ A. Karena 5, 6, 7, dan 8 bukan anggota A, maka ditulis dengan 5 ∉ A, 6 ∉ A, 7 ∉ A, dan 8 ∉ A.
+        </p>
+        <p align="justify">
+            Kemudian banyaknya aanggota dari suatu himpunan dapat dinyatakan dengan n. Jika A = {0, 1, 2, 3, 4} maka n(A) = banyaknya anggota himpunan A = 5. Jadi dapat disimpulkan Banyaknya anggota himpunan A dinyatakan dengan n(A).
+        </p>
+
+        <p><li>Menyatakan anggota himpunan dengan cara mendaftar</li></p>
+        <p align="justify">Caranya yaitu dengan menyebutkan anggota-anggota dari suatu himpunan, menuliskannya dengan mengunakan kurung kurawal, dan anggota-anggotanya dipisahkan dengan tanda koma.</p>
+        <p align="justify">Contoh :</p>
+        <p>A = {0, 1, 2, 3, 4, 5, ...}</p>
+        <p>N = {2, 4, 6, 7, 8, 10, ...}</p>
+        </ol>
+
+        <h5>4. Himpunan Berhingga dan Himpunan Tak Berhingga</h5>
+        <ol>
+        <p align="justify">
+            Sebelumnya telah kita ketahui bahwa banyaknya anggota himpunan A dinyatakan dengan n(A). Jika suatu himpunan dinyatakan dengan cara mendaftarkan anggota-anggota suatu himpunan, maka kita dapat menentukan anggota-anggota himpunan
+            tersebut. Jika A adalah himpunan bilangan genap kurang dari 10 maka A = {2, 4, 6, 8} dengan n(A) = 4. Himpunan A ini disebut sebagai himpunan berhingga, artinya banyaknya anggota pada himpunan A berhingga. Sedangkan untuk himpunan
+            tak berhingga contohnya seperti ini, jika B ={bilangan asli yang habis dibagi 2}maka B = {2, 4, 6, 8, 10, ...}, dengan n(B) = tidak berhingga, karena banyaknya anggota dari himpunan B tak berhingga.
+        </p>
+        </ol>
+        <ol>
+        <p align="justify">Maka dapat disimpulkan bahwa himpunan berhingga ialah himpunan yang memiliki banyak anggota berhingga. Sedangkan himpunan tak berhingga adalah himpunan yang memiliki banyak anggota tak berhingga</p>
+        </ol>
+    </div>
+    </div>
+<!-- Akhir BAB 1 -->
+<!-- BAB 2 -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h4 class="m-0 font-weight-bold text-primary"><center>Himpunan Kosong, Himpunan Nol, Himpunan Semesta, dan Himpunan Bagian</center></h4>
+        </div>
+        <div class="card-body">
+            <h5>1. Himpunan Kosong dan Himpunan Nol</h5>
+    <ol><p align="justify">Himpunan kosong adalah himpunan yang tidak mempunyai anggota. Himpunan kosong dinotasikan dengan ϕ atau {}. Misalnya himpunan bilangan cacah yang kurang dari nol dapat dinotasikan dengan C = ϕ atau C = {}. Dapat kita lihat dari pengertian himpunan kosong, maka himpunan tidak kosong berarti himpunan yang paling sedikit memiliki satu anggota.</p></ol>
+    <ol><p align="justify">Himpunan nol merupakan salah satu himpunan tidak kosong, karena himpunan nol beranggotakan satu anggota, yaitu nol. Maka dapat disimpulkan bahwa himpunan nol adalah himpunan yang hanya memiliki satu anggota, yaitu nol. Misalnya A himpunan nol, maka A = {0} dan A ≠ {}.</p></ol>
+
+    <h5>2. Himpunan Semesta</h5>
+    <center>
+    <img src="https://i.postimg.cc/MpGSRgh6/Gambar1.jpg" width ="400px" height="250px">
+    </center>
+    <ol><p align="justify">Perhatikan gambar di atas, gambar tersebut menunjukkan kelompok bunga yang terdiri dari bunga mawar, bunga dianthus, dan bunga gerbera.</p></ol>
+    <ol><p align="justify">Jika A = {bunga mawar, bunga dianthus, bunga gerbera} maka semesta pembicaraan/himpunan semesta dari himpunan A adalah himpunan S = {bunga-bungaan}.Dengan kata lain, S adalah himpunan semesta dari A. Himpunan S memuat semua anggota himpunan A.</p></ol>
+    <ol><p align="justify">Setelah menelaah contoh di atas, dapat kita simpulkan bahwa himpunan semesta atau semesta pembicaraan adalah himpunan yang memuat semua anggota himpunan yang sedang dibicarakan. Himpunan semesta dilambangkan dengan huruf "S". </p></ol>
+    <ol><p align="justify">Contoh : </p>
+    <p>Tentukan tiga himpunan semesta yang mungkin dari himpunan berikut.</ol>
+    <ol type="a"><li>{2, 3, 5, 7 }</li>
+    <li>{kerbau, sapi, kambing}</li></p></ol>
+    <ol><p align="justify">Jawab : </p></ol>
+    <ol type="a"><p><li>Misalkan A = {2, 3, 5, 7}, maka himpunan semesta yang mungkin dari himpunan A adalah S = {bilangan prima} atau S = {bilangan asli} atau S = {bilangan cacah}.</li>
+    <li>Himpunan semesta yang mungkin dari {kerbau, sapi, kambing} adalah {binatang}, {binatang berkaki empat}, atau {binatang mamalia}.</li></p></ol>
+
+
+    <h5>3. Himpunan Bagian</h5>
+    <ol type="a"><li>Pengertian Himpunan Bagian</li>
+    <p align="justify">Himpunan P disebut himpunan bagian dari himpunan Q jika setiap anggota P merupakan anggota himpunan Q. Notasi yang digunakan untuk menyatakan himpunan bagian adalah notasi ⊂ . Jadi, jika himpunan P merupakan himpunan bagian dari himpunan Q, maka dapat ditulis dengan P ⊂ Q . </p>
+    <p align="justify">Agar lebih memahami konsep dari himpunan bagian, perhatikan contoh di bawah ini :</p>
+    <p align="justify">A = {1, 2, 3}; B = {4, 5, 6}; C = {1, 2, 3, 4, 6}</p>
+    <p align="justify">Dilihat dari himpunan yang ada, setiap anggota himpunan A yaitu 1, 2, 3 juga menjadi anggota pada himpunan C. Dapat dikatakan bahwa himpunan A merupakan himpunan bagian dari C, ditulis A ⊂ C atau C ⊂ A.</p>
+    <p align="justify">Sekarang coba kita lihat himpunan B dan himpunan C.</p>
+    <p align="justify">B = {4, 5, 6}; C = {1, 2, 3, 4, 5} </p>
+    <p align="justify">Terlihat bahwa tidak setiap anggota himpunan B menjadi anggota himpunan C, karena 6 ∉ C. Dikatakan bahwa B bukan merupakan himpunan bagian dari C, dapat ditulis dengan B ⊄C (dibaca B bukan himpunan bagian dari C). </p>
+    <p align="justify">Dari contoh di atas dapat disimpulkan bahwa himpunan A merupakan himpunan bagian B, jika setiap anggota A juga menjadi anggota B dan dinotasikan A ⊂ B atau B ⊂ A. Kemudian himpunan A bukan merupakan himpunan bagian B, jika terdapat anggota A yang bukan anggota B, dan dinotasikan A ⊄ B.</p>
+    <p align="justify">Berikut ini beberapa aturan lain mengenai himpunan bagian, antara lain :</p>
+    <ol type="a"><p><li>Setiap himpunan merupakan himpunan bagian dari dirinya sendiri. Jadi, jika dimisalkan A adalah sebuah himpunan maka A ⊂ A.</li>
+    <li>Himpunan kosong merupakan himpunan bagian dari setiap himpunan. Jadi, jika dimislakan A adalah sebuah himpunan maka ϕ ⊂ A.</li></p></ol>
+
+    <li>Menentukan Banyaknya Himpunan</li>
+    <p align="justify">Untuk mengetahui banyaknya himpunan bagian dari suatu himpunan,pelajari tabel berikut ini :</p>
+    <center>
+    <img src="https://i.postimg.cc/bYG35PtD/Jepretan-Layar-2022-05-31-pukul-16-03-33-removebg-preview.png" width ="500px" height="400px">
+    </center>
+
+    <p align="justify">Dapat dilihat, berdasarkan tabel di atas terdapat hubungan antara banyaknya anggota sutau himpunan dengan banyaknya himpunan bagian himpunan tersebut. Dengan demikian dapat disimpulkan "Banyaknya semua himpunan bagian dari suatu himpunan adalah <b>2<sup>n</sup></b>. Dengan n : banyaknya anggota pada himpunan tersebut.</p>
+    <p align="justify">Selain dengan rumus tadi, untuk menentukan banyaknya himpunan bagian pada suatu himpunan juga dapat diselesaikan dengan menggunakan pola bilangan segitiga Pascal.</p>
+    <center>
+    <img src="https://i.postimg.cc/7PTnVNFS/Jepretan-Layar-2022-05-31-pukul-15-51-11-removebg-preview.png" width ="500px" height="400px">
+    </center>
+    <p align="justify">Pada pola bilangan Pascal, angka ditengah yang berada di bawahnya merupakan hasil dari pnejumlahan angka yang diatasnya. Himpunan bagian dari {a, b, c, d} yang mempunyai </p>
+    <p>0 anggota ada 1 = {};</p>
+    <p>1 anggota ada 4 = {a}, {b}, {c}, {d};</p>
+    <p>2 anggota ada 6 = {a, b}, {a, c}, {a, d}, {b, c}, {b, d}, {c, d};</p>
+    <p>3 anggota ada 4 = {a, b, c}, {a, b, d}, {a, c, d}, {b, c, d};</p>
+    <p>4 anggota ada 1 = {a, b, c, d};</p>
+    <ol><p align="justify">Contoh lain : </p>
+    <p>Hitunglah banyaknya himpunan bagian dari B = {a, i, u, e}</p>
+    <img src="https://i.postimg.cc/wMtJb946/Jepretan-Layar-2022-05-31-pukul-16-16-19-removebg-preview.png" width ="300px" height="150px"></ol></ol>
+        </div>
+    </div>
+<!-- Akhir BAB 2 -->
+<!-- BAB 3 -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary"><center>Hubungan Antar Himpunan</center></h4>
+    </div>
+    <div class="card-body">
+        <ol type="1"><li>Dua Himpunan Saling Lepas</li>
+            <p align="justify">Dua himpunan yang tidak kosong disebut <b>saling lepas</b> atau <b>saling asing</b> jika kedua himpunan tersebut tidak mmpunyai anggota persekutuan  atau aggotanya yang sama.</p>
+            <li>Dua Himpunan Saling Lepas</li>
+            <p align="justify">Dua himpunan A dan B disebut <b>tidak saling lepas (berpotongan)</b> jika A dan B mempunyai anggota persekutuan, tetapi masih ada anggota A yang bukan merupakan anggota B dan ada anggota B yang bukan merupakan anggota A.</p>
+            <li>Dua Himpunan Saling Lepas</li>
+            <p align="justify">Dua himpunan dikatakan <b>sama</b>, apabila kedua himpunan mempunyai anggota yang tepat sama.</p>
+            <li>Dua Himpunan yang Ekuivalen</li>
+            <p align="justify">Dua himpunan A dan B dikatakan <b>ekuivalen</b> jika banyaknya anggota himpunan A = banyaknya anggota himpunan B (n(A) = n(B)).</p></ol>
+    </div>
+</div>
+<!-- Akhir BAB 3 -->
+<!-- BAB 4 -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary"><center>Operasi pada Himpunan dan Sifat Operasi Antar Himpunan </center></h4>
+    </div>
+    <div class="card-body">
+        <ol type="1"><li>Gabungan Dua Himpunan</li>
+            <ol type="a"><p><li><i>Pengertian dua himpunan</i></li></p>
+            <p align="justify">Jika A dan B adalah dua himpunan, gabungan himpunan A dan B adalah himpunan yang anggota - anggotanya terdiri atas anggota A atau anggota B. Gabungan antara dua himpunan dinotasikan denagn A ⋃ B, dan dapat ditulis dengan <b>A ⋃ B = {x | x ∈ A atau x ∈ B}</b></p>
+            <li><i>Menentukan gabungan dua himpunan</i></li>
+            <p align="justify">- Himpunan yang satu merupakan himpunan bagian dari himpunan yang lain.<b> Jika A ⊂ B maka A ⋃ B = A</b></p>
+            <p align="justify">- Kedua himpunan sama.<b> Jika A = B maka A ⋃ B = A = B</b></p>
+            <p align="justify">- Kedua himpunan tidak saling lepas(berpotongan)</p>
+            <li><i>Menentukan banyaknya anggota dari gabungan dua himpunan</i></li>
+            <p align="justify">Dirumuskan dengan <b><i>n</i>(A ⋃ B) = <i>n</i>(A) + <i>n</i>(B) - <i>n</i>(A ⋃ B)</b></p></ol>
+        
+        <li>Irisan Dua Himpunan</li>
+            <ol type="a"><p><li><i>Pengertian irisan dua himpunan</i></li></p>
+            <p align="justify">Irisan (interaksi) dua himpunan adalah sutau himpunan yang anggotanya merupakan anggota persekutuan dari dua himpunan tersebut. Irisan himpunan A dan B dinotasikan sebagai berikut . <b>A ⋂ B = {x | x ∈ A atau x ∈ B}</b></p>
+            <li><i>Menentukan irisan dua himpunan</i></li>
+            <p align="justify">- Himpunan yang satu merupakan himpunan bagian dari himpunan yang lain.<b> Jika A ⊂ B maka A ⋂ B = A	</b></p>
+            <p align="justify">- Kedua himpunan sama.<b> Jika A = B maka A ⋂ B = A atau A ⋂ B = B</b></p>
+            <p align="justify">- Kedua himpunan tidak saling lepas(berpotongan)</p></ol>
+            
+
+        <li>Selisih <i>(Difference)</i> Dua Himpunan</li>
+        <p align="justify">Selisih (difference) himpunan A dan B adalah himpunan yang anggotanya semua anggota dari A tetapi bukan anggota dari B. Selisih himpunan A dan B dinotasikan dengan A - B atau A\B. Notasi pembentuk himpunannya dituliskan sebagai berikut.</p>
+        <p align="justify">A - B = {x | x ∈ A, x ∉ B}</p>
+        <p align="justify">B - A = {x | x ∈ B, x ∉ A}</p>
+
+        <li>Komplemen Suatu Himpunan</li>
+        <p align="justify">Komplemen himpunan A adalah suatu himpunan yang anggota - anggotanya merupakan anggota S tetapi bukan anggota A. Komplemen dinotasikan dengan A^C atau A', dibaca komplemen himpunan A. Dengan notasi pembentuk himpunan ditulisakn seperti di bawah ini:</p>
+        <center><b>A<sup>C</sup> = { x | x ∈ B, x ∉ A }</b></center>
+        
+        <li>Sifat -  Sifat Operasi Himpunan</li>
+        <ol type="a"><p><li><i>Sifat - sifat irisan dan gabungan himpunan</i></li></p>
+        <p align="justify">- Sifat Komutatif irisan<b> A ⋂ B = B ⋂ A</b></p>
+        <p align="justify">- Sifat Asosiatif irisan<b> (A ⋂ B) ⋂ C = A ⋂ (B ⋂ C)</b></p>
+        <p align="justify">- Sifat idempotent irisan</p>
+        <li><i>Sifat - sifat selisih himpunan</i></li>
+        <p align="justify">- Sifat distributif selisih terhadap irisan. Untuk setiap himpunan A, B, dan C berlaku <b>A – (B ⋂ C) = (A – B) ⋃ (A – C)</b></p>
+        <p align="justify">- Sifat distributif selisih terhadap gabungan<b> A – (B ⋃ C) = (A – B) ⋂ (A – C)</b></p></ol></ol>
+    </div>
+</div>
+<!-- Akhir BAB 4 -->
+<!-- BAB 5 -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary"><center>Diagram Venn</center></h4>
+    </div>
+    <div class="card-body">
+        <ol type="1"><li>Pengertian Diagram Venn</li>
+            <p align="justify">Diagram Venn merupakan cara lain untuk menunjukkan suatu himpunan secara visual (gambar). Diagram Venn pertama kali ditemukan oleh John Venn, Ia adalah seorang ahli matematika dari inggris yang hidup pada tahun 1834 - 1923. (Nuharini & Wahyuni, 2008)</p>
+            <p align="justify">Dalam diagram Venn, himpunan semesta dinyatakan dengan daerah persegi panjang, sedangkan himpunan lain dalam semesta pembicaraan atau himpunan semesta dinyatakan dengan kurva mulus tertutup sederhana dan noktah - noktah untuk menyatakan anggotanya.</p>
+            <p align="justify">Untuk memahami cara penyajian himpunan dalam diagram Venn, bacalah dengan seksama uraian berikut !</p>
+            <p align="justify">Diketahui S = {0, 1, 2, 3, 4, ..., 9}; P = {0, 1, 2, 3, 4}; dan Q = {5, 6, 7} </p>
+            <p align="justify">Himpunan S adalah himpunan semesta. Dalam diagram Venn, himpunan semsta dinotasikan dengan S berada di pojok kiri.</p>
+            <center>
+                <img src="https://i.postimg.cc/gj1V6LnJ/Himpuan1-removebg-preview.png" width ="200px" height="150px">
+            </center>
+            <p align="justify">Dilihat dari gambar di atas, karena tidak ada anggota persekutuan antara P dan Q, maka P ⋂ Q = {}. Jadi, dapat disimpulkan bahwa kedua himpunan P dan Q adalah himpunan saling lepas. </p>
+
+        <li>Membaca Diagram Venn</li>
+        <p align="justify">contoh :</p>
+        <center>
+            <img src="https://i.postimg.cc/MKkyN2qR/VV.png" width ="300px" height="200px">
+        </center>
+        <p align="justify">Berdasarkan diagram Venn di atas, tentukanlah himpunan - himpunan berikut dengan mendaftar anggota-anggotanya</p>
+        <ol type="a"><li>Himpunan S</li>
+        <li>Himpunan B</li>
+        <li>Himpunan A</li>
+        <li>Anggota himpunan A ⋃ B</li>
+        <li>Anggota himpunan A ⋂ B</li>
+        <li>Anggota himpunan A\B</li>
+        <li>Anggota himpunan A<sup>C</sup></li></ol>
+        <p align="justify">Jawab :</p>
+        <ol type="a"><p><li>Himpunan S = {3, 5, 11, 12, 13, 14, 17, 19}</li>
+        <li>Himpunan B = {1, 2, 4, 6, 7, 15, 18}</li>
+        <li>Himpunan A = {2, 6, 7, 8, 9, 10, 16, 18}</li>
+        <li>Anggota himpunan A ⋃ B = {1, 2, 4, 6, 7, 8, 9, 10, 15, 16, 18}</li>
+        <li>Anggota himpunan A ⋂ B = {2, 6, 18, 7}</li>
+        <li>Anggota himpunan A\B = {8, 9, 10, 16}</li>
+        <li>Anggota himpunan A<sup>C</sup>= {1, 3, 4, 5, 11, 12, 13, 14, 15, 17, 19}</li></p></ol>
+        
+        <li>Menyajikan Operasi Himpunan dalam Diagram Venn</li>
+        <center>
+            <img src="https://i.postimg.cc/prvK9z0C/vv2.png" width ="300px" height="200px">
+        </center>
+        <p align="justify">Misalkan S = {1, 2, 3, ..., 10} P = {1, 3, 5, 7, 9} dan Q = {2, 3, 5, 7}. Himpunan P ⋂ Q = {3, 5, 7}, sehingga dapat dikatakan bahwa himpunan P dan Q saling berpotongan. Diagram Venn yanng menyatakan hubungan himpunan S, P, dan Q adalah gamabr di atas. Daerah yang diwarnai pada diagram Venn di atas menunjukkan daerah P ⋂ Q.</p>
+        <p align="justify">	Adapun daerah arsiran yang menunjukan P ⋃ Q  </p>
+        <center>
+            <img src="https://i.postimg.cc/1RTQZBjD/vv3.png" width ="300px" height="200px">
+        </center>
+        <p align="justify">	Berdasarkan diagram Venn di atas, terlihat bahwa P ⋃ Q = {1, 2, 3, 5, 7, 8, 9} </p>
+
+        <li>Menyelesaikan Masalah Dengan Konsep Himpunan</li>
+        <p align="justify">Contoh :</p>
+        <p align="justify">Dalam suatu kelas yang terdiri atas 40 siswa, diketahui 24 siswa gemar bermain tenis, 23 siswa gemar sepak bola, dan 11 siswa gemar keduaduanya. Gambarlah diagram Venn dari keterangan tersebut, kemudian tentukan banyaknya siswa</p>
+        <ol type="a"><p><li>Yang hanya gemar bermain tenis</li>
+        <li>Yang hanya gemar bermain sepak bola</li>
+        <li>Yang hanya gemar bermain kedua - duanya</li></p></ol>
+        <p align="justify">Jawab :</p>
+        <p align="justify">Dalam menentukan banyaknya anggota masing - masing himpunan pada diagram Venn, tentukan terlebih dahulu banyaknya anggota yang gemar bermain tenis dan sepak bola, yaitu 11 siswa. Diagram Venn-nya seperti gambar berikut :</p>
+    </div>
+</div>
+<!-- Akhir BAB 5 -->
+{% endblock %}
